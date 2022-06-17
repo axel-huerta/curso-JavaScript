@@ -1,3 +1,4 @@
+/*
 //funciones.....
 let p1 = 1
 let p2 = 10
@@ -50,11 +51,29 @@ let longitud = numeros.length
 for (let i = 0; i < longitud; i++){
     console.log(i)
 }
+//frutas.....
+const fruits = new Map([
+    ["mandaruna", 300],
+    ["mandioca", 500],
+    ["manzana", 600]
 
-var x1 = prompt("ingrese dato: ")
-while (x1 != "10"){
-    const li = []
-    li.push(x1)
-    var x1 = prompt("ingrese dato: ")
+  ]);
+for (const fruta of fruits){
+    console.log(fruta[0])
 }
-console.log("fin..")
+*/
+
+//practica1.....
+let n = [1, 2, 3, 4 ,5 ,6 ,7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+let pares = []
+let impares = []
+for (let i = 0; i = n.length; i++){
+    if(i % 2 == 0){
+        pares.push(i)
+    } else {
+        impares.push(i)
+    };
+};
+document.write("los numeros impares son " + pares + "<br>")
+
