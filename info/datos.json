@@ -1,0 +1,14 @@
+{
+    "nombre": "laptop",
+    "instituro": "40.2",
+    "active": false,
+    "cursos": ["javascript", "html", "css","mongo"],
+    "factura": {
+        "name": "dell",
+        "version": "fnf",
+        "local": {
+            "city": "arg",
+            "address": "asdasd"
+        }
+    }
+}
